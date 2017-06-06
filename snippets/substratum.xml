@@ -10,8 +10,10 @@
     <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
     <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
     <remove-project name="LineageOS/android_packages_apps_Settings" />
+	<remove-project name="LineageOS/android_packages_apps_CMParts" />
     <remove-project name="LineageOS/android_system_sepolicy" />
     <remove-project name="LineageOS/android_vendor_cm" />
+	<remove-project name="LineageOS/cm_platform_sdk" />
 
     <!-- Track our repos -->
     <project path="frameworks/base" name="LineageOMS/android_frameworks_base" />
@@ -22,9 +24,12 @@
     <project path="packages/apps/ExactCalculator" name="LineageOMS/android_packages_apps_ExactCalculator" />
     <project path="packages/apps/PackageInstaller" name="LineageOMS/android_packages_apps_PackageInstaller" />
     <project path="packages/apps/PhoneCommon" name="LineageOMS/android_packages_apps_PhoneCommon" />
-    <project path="packages/apps/Settings" name="LineageOMS/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="ExynosRom/android_packages_apps_Settings" />
     <project path="system/sepolicy" name="LineageOMS/android_system_sepolicy" />
-    <project path="vendor/cm" name="LineageOMS/android_vendor_cm" />
+    <project path="vendor/cm" name="ExynosRom/android_vendor_cm" />
+	<project path="packages/apps/CMParts" name="ExynosRom/android_packages_apps_CMParts" />
+	<project path="vendor/cmsdk" name="ExynosRom/cm_platform_sdk" />
+	<project path="packages/apps/OmniSwitch" name="crdroidandroid/android_packages_apps_OmniSwitch" revision="7.1"  />
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
